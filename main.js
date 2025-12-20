@@ -54,13 +54,9 @@ submitBtn.addEventListener("click",()=>{
     const newPass= password();
     input.value= newPass;
     console.log(newPass);
-    display.innerHTML = "strong password";
     display.style.color = "green";
 });
 clearBtn.addEventListener("click",()=>{
     input.value = "";
-    display.innerHTML ="Password required";
-    display.style.color = "red";
-
     
 });
